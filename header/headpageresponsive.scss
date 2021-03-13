@@ -1,0 +1,37 @@
+@media  (max-width:1100px) {
+ .head-wrap {
+     padding :  50px 15px  0 15px;
+ }   
+}
+@media (max-width:991px) {
+    .navigate {
+        display: none;
+        
+    }
+
+}
+
+
+@media (max-width:768px) {
+.burger-icon{
+    color:red;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor:pointer;
+  }
+  .head-wrap {
+      position: relative;
+  }
+}
+
+
+@media (max-width: 768px){
+    .wrapper, 
+    ul{
+      display: block;
+      text-align: center;
+    }   
+}

@@ -1,0 +1,198 @@
+.sect5 {
+    background-image: url(../image/sect5back.jpg);
+    max-width: 1000px;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.s6cont {
+    height: 700px  ;
+    max-width: 1800px;
+    display: flex;
+    background-color:$appwhite;
+    
+}
+.lilbox {
+    width: 900px;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: $appblue ;
+    color: $appwhite;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: $appblue ;
+  }
+  
+  .xxbox {
+    border-radius: 5px;
+   
+   
+    padding: 20px;
+    
+  }
+  
+  .col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+ 
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+    
+    
+  
+ 
+  .textebi {
+      max-width: 1800px;
+      display: flex;
+
+  }
+  .reviewtext {
+      width: 380px;
+      font-size: 25px;
+     margin-left: 130px;
+      margin-top: 100px;
+      font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+
+     
+      
+  }
+  
+
+  .maptext {
+      
+      font-size:  25px;
+      
+      font-family: 'Noto Sans JP', sans-serif;
+      margin-top: 100px;
+      font-weight: bold;
+      width: 200px;
+
+     
+  }
+ 
+ .span-contact {
+     font-size: 15px;
+     color: black;
+     font-weight: bold;
+     font-family: 'Open Sans', sans-serif;
+    
+    }
+     
+.contact-a {
+
+font-size: 16px;
+color: $appblue;
+font-family: 'Open Sans', sans-serif;
+;
+}
+.lipp {
+    margin-top: 20px;
+}
+
+
+/*animation*/
+
+
+.anime {
+  width: 450px;
+  font-size: 40px;
+  margin:0 auto;
+  margin-top: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  
+
+  
+}
+.map {
+  margin-top: 50px;
+}
+
+.bb1 {
+  background-color: #ffe680;
+}
+.bb2 {
+  margin-left: 100px;
+}
+.lastimg {
+  float: right;
+}
+
+.view_port {
+  margin-top:60px;
+  background-color: black;
+  height: 25px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cylon_eye {
+  background-color: #ffe680;
+  background-image: linear-gradient(to right,
+      rgba(0, 0, 0, .9) 25%,
+      rgba(0, 0, 0, .1) 50%,
+      rgba(0, 0, 0, .9) 75%);
+  color: white;
+  height: 100%;
+  width: 20%;
+
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }

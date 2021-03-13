@@ -1,0 +1,41 @@
+@media (max-width:780px) {
+    .box-wraper {
+        flex-wrap: wrap;
+        
+
+    }
+    .icon {
+        font-size: 30px;
+    }
+    .small-box {
+        width: 150px;
+        height: 150px;
+    }
+    
+   
+    .s2p {
+        display: none;
+    }
+}
+@media (max-width:616px) {
+    .learn {
+        display: none;
+    }
+}
+@media (max-width:479px) {
+    .p2h3 {
+        display: none;
+    }
+    .icon {
+        width: 80px;
+        
+    }
+    
+    
+}
+@media (max-width:467px) {
+    .small-box {
+        width: 100px;
+        height: 100px;
+    }
+}

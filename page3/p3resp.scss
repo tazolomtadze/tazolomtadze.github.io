@@ -1,0 +1,32 @@
+@media (max-width:900px) {
+    .p3-text { 
+        font-size: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width:900px) {
+    .sect3-watch {
+        left: 20%;
+        top:5% ;
+    }
+}
+@media (max-width:790px) {
+    .sectp3 {
+    background-image: url('../image/watch2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.p3-text {
+    font-size: 30px;
+    line-height: 1;
+    left:170px;
+}
+}
+@media (max-width:620px) {
+    .sect3-watch {
+        display: none;
+    }
+}

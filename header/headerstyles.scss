@@ -1,0 +1,135 @@
+.main-header {
+    background-image: url('../image/main.png');
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.head-wrap {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin:0 auto;
+}
+.nav-ul {
+    display: flex;
+}
+.nav-a {
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-size: 14px;
+    color:black;
+}
+.nav-li {
+    margin-right: 40px;
+}
+.header-tittle {
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    
+    position: absolute;
+   
+    color:black;
+   
+    
+    
+
+}
+
+.btn   {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.headt-flex {
+    display: flex;
+  flex-direction: column;
+  
+}
+
+    
+
+.textt {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+    
+   
+    
+    
+}
+.pheaderr {
+height: 100px;
+    text-align: left;
+
+margin-top: 30px;
+}
+    
+    
+
+.shopclick {
+    color: #0072ed;
+
+}
+
+.textarea1 {
+    
+    width: 350px;
+    height: 200px;
+    left: 39%;
+    font-size: 14px;
+    position: absolute
+    
+   
+}
+.buttons1 {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 100px  ;
+    height: 40px   ;
+    background-color: #0072ed ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    font-size: 18px;
+    align-self: center;
+    
+    
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+.buttons1:hover {opacity:0.6}
+.textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+.textt {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.textarea {
+    margin-top:30px;
+    margin-left: 35px;
+
+}
+.burger-icon {
+    display: none;
+}
